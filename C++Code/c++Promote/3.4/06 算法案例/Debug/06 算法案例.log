@@ -1,0 +1,20 @@
+﻿生成启动时间为 2020/2/14 21:36:53。
+     1>项目“D:\寒假期间\c++提高篇\day12\06 算法案例\06 算法案例.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "06 算法案例.cpp"
+         06 算法案例.cpp
+     1>d:\software\vs2013\setup file\vc\include\algorithm(1167): error C4996: 'std::_Transform2': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\software\vs2013\setup file\vc\include\algorithm(1145) : 参见“std::_Transform2”的声明
+                 d:\寒假期间\c++提高篇\day12\06 算法案例\06 算法案例.cpp(89): 参见对正在编译的函数 模板 实例化“_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,std::ostream_iterator<int,char,std::char_traits<char>>,std::negate<int>,std::negate<int>>(_InIt1,_InIt1,_InIt2,_OutIt,_Fn2)”的引用
+                 with
+                 [
+                     _OutIt=std::negate<int>
+         ,            _InIt1=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+         ,            _InIt2=std::ostream_iterator<int,char,std::char_traits<char>>
+         ,            _Fn2=std::negate<int>
+                 ]
+     1>已完成生成项目“D:\寒假期间\c++提高篇\day12\06 算法案例\06 算法案例.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.36

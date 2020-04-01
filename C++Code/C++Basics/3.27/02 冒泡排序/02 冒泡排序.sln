@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 冒泡排序", "02 冒泡排序.vcxproj", "{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 作业 05", "..\04 作业 05\04 作业 05.vcxproj", "{C4E0403D-ED01-4C8D-B1FE-E15C095A6DF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 对数组的操作", "..\05 对数组的操作\05 对数组的操作.vcxproj", "{EE6C0006-D179-49EE-85A2-727A7D911F66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 交换数组", "..\06 交换数组\06 交换数组.vcxproj", "{10DA33B8-0451-4D61-B2A5-2AF80B2C6A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Debug|Win32.Build.0 = Debug|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Release|Win32.ActiveCfg = Release|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Release|Win32.Build.0 = Release|Win32
+		{C4E0403D-ED01-4C8D-B1FE-E15C095A6DF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4E0403D-ED01-4C8D-B1FE-E15C095A6DF6}.Debug|Win32.Build.0 = Debug|Win32
+		{C4E0403D-ED01-4C8D-B1FE-E15C095A6DF6}.Release|Win32.ActiveCfg = Release|Win32
+		{C4E0403D-ED01-4C8D-B1FE-E15C095A6DF6}.Release|Win32.Build.0 = Release|Win32
+		{EE6C0006-D179-49EE-85A2-727A7D911F66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE6C0006-D179-49EE-85A2-727A7D911F66}.Debug|Win32.Build.0 = Debug|Win32
+		{EE6C0006-D179-49EE-85A2-727A7D911F66}.Release|Win32.ActiveCfg = Release|Win32
+		{EE6C0006-D179-49EE-85A2-727A7D911F66}.Release|Win32.Build.0 = Release|Win32
+		{10DA33B8-0451-4D61-B2A5-2AF80B2C6A1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10DA33B8-0451-4D61-B2A5-2AF80B2C6A1F}.Debug|Win32.Build.0 = Debug|Win32
+		{10DA33B8-0451-4D61-B2A5-2AF80B2C6A1F}.Release|Win32.ActiveCfg = Release|Win32
+		{10DA33B8-0451-4D61-B2A5-2AF80B2C6A1F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

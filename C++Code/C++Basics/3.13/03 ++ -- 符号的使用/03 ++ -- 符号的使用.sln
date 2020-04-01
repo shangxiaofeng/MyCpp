@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 register关键字的增强", "..\..\3.15\01 register关键字的增强\01 register关键字的增强.vcxproj", "{83CCC31E-4401-4958-8E1F-09CBA7BB5A8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 static 修饰全局变量", "..\..\3.15\02 static 修饰全局变量\02 static 修饰全局变量.vcxproj", "{DEC8138C-D5F8-47D0-A8AF-E30EC5EC64BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 static 关键字", "..\..\3.15\03 static 关键字\03 static 关键字.vcxproj", "{9E84521E-1613-4AF1-A30F-D6E23F15F240}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 static 修饰函数", "..\..\3.15\04 static 修饰函数\04 static 修饰函数.vcxproj", "{7BF3CE9F-C20E-4623-9961-568742FABD2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 strlen 与sizeof的区别", "..\..\3.15\05 strlen 与sizeof的区别\05 strlen 与sizeof的区别.vcxproj", "{27421232-C94C-436D-8F42-D4BE570C993A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 define 关键字的使用", "..\..\3.15\06 define 关键字的使用\06 define 关键字的使用.vcxproj", "{E37C9C95-0F98-41F0-9EA9-BB5DFF621E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83CCC31E-4401-4958-8E1F-09CBA7BB5A8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83CCC31E-4401-4958-8E1F-09CBA7BB5A8E}.Debug|Win32.Build.0 = Debug|Win32
+		{83CCC31E-4401-4958-8E1F-09CBA7BB5A8E}.Release|Win32.ActiveCfg = Release|Win32
+		{83CCC31E-4401-4958-8E1F-09CBA7BB5A8E}.Release|Win32.Build.0 = Release|Win32
+		{DEC8138C-D5F8-47D0-A8AF-E30EC5EC64BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DEC8138C-D5F8-47D0-A8AF-E30EC5EC64BC}.Debug|Win32.Build.0 = Debug|Win32
+		{DEC8138C-D5F8-47D0-A8AF-E30EC5EC64BC}.Release|Win32.ActiveCfg = Release|Win32
+		{DEC8138C-D5F8-47D0-A8AF-E30EC5EC64BC}.Release|Win32.Build.0 = Release|Win32
+		{9E84521E-1613-4AF1-A30F-D6E23F15F240}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E84521E-1613-4AF1-A30F-D6E23F15F240}.Debug|Win32.Build.0 = Debug|Win32
+		{9E84521E-1613-4AF1-A30F-D6E23F15F240}.Release|Win32.ActiveCfg = Release|Win32
+		{9E84521E-1613-4AF1-A30F-D6E23F15F240}.Release|Win32.Build.0 = Release|Win32
+		{7BF3CE9F-C20E-4623-9961-568742FABD2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BF3CE9F-C20E-4623-9961-568742FABD2E}.Debug|Win32.Build.0 = Debug|Win32
+		{7BF3CE9F-C20E-4623-9961-568742FABD2E}.Release|Win32.ActiveCfg = Release|Win32
+		{7BF3CE9F-C20E-4623-9961-568742FABD2E}.Release|Win32.Build.0 = Release|Win32
+		{27421232-C94C-436D-8F42-D4BE570C993A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27421232-C94C-436D-8F42-D4BE570C993A}.Debug|Win32.Build.0 = Debug|Win32
+		{27421232-C94C-436D-8F42-D4BE570C993A}.Release|Win32.ActiveCfg = Release|Win32
+		{27421232-C94C-436D-8F42-D4BE570C993A}.Release|Win32.Build.0 = Release|Win32
+		{E37C9C95-0F98-41F0-9EA9-BB5DFF621E9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E37C9C95-0F98-41F0-9EA9-BB5DFF621E9B}.Debug|Win32.Build.0 = Debug|Win32
+		{E37C9C95-0F98-41F0-9EA9-BB5DFF621E9B}.Release|Win32.ActiveCfg = Release|Win32
+		{E37C9C95-0F98-41F0-9EA9-BB5DFF621E9B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

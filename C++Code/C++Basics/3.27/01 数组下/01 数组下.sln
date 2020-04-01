@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 数组下", "01 数组下\01 数组下.vcxproj", "{F23D1622-BEFE-4A6D-9FD0-BA67CF568C64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 冒泡排序", "..\02 冒泡排序\02 冒泡排序.vcxproj", "{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F23D1622-BEFE-4A6D-9FD0-BA67CF568C64}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F23D1622-BEFE-4A6D-9FD0-BA67CF568C64}.Debug|Win32.Build.0 = Debug|Win32
+		{F23D1622-BEFE-4A6D-9FD0-BA67CF568C64}.Release|Win32.ActiveCfg = Release|Win32
+		{F23D1622-BEFE-4A6D-9FD0-BA67CF568C64}.Release|Win32.Build.0 = Release|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Debug|Win32.Build.0 = Debug|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Release|Win32.ActiveCfg = Release|Win32
+		{E9FDEE44-9F2C-4E5D-AAFD-0544B55DCBEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 map容器-multimap容器", "01 map容器-multimap容器\01 map容器-multimap容器.vcxproj", "{6871EECE-0469-42C9-9847-CCFE699A2A9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 multimap 的基本案例", "..\02 multimap 的基本案例\02 multimap 的基本案例.vcxproj", "{488F4622-C70E-4A0C-AF60-B0F12664E064}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 容器的值得  寓意", "..\03 容器的值得  寓意\03 容器的值得  寓意.vcxproj", "{F903E57D-8293-4573-8F66-82F782BF8523}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 算法操练", "..\04 算法操练\04 算法操练.vcxproj", "{C0005EE7-6135-4523-958D-049603BD0650}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 预定义函数对象和函数适配器", "..\05 预定义函数对象和函数适配器\05 预定义函数对象和函数适配器.vcxproj", "{71786393-4EB4-4A3C-87CC-E4FD5522C88E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 算法案例", "..\06 算法案例\06 算法案例.vcxproj", "{0AC23A14-8F11-4312-89DE-D994AE05F85D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6871EECE-0469-42C9-9847-CCFE699A2A9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6871EECE-0469-42C9-9847-CCFE699A2A9C}.Debug|Win32.Build.0 = Debug|Win32
+		{6871EECE-0469-42C9-9847-CCFE699A2A9C}.Release|Win32.ActiveCfg = Release|Win32
+		{6871EECE-0469-42C9-9847-CCFE699A2A9C}.Release|Win32.Build.0 = Release|Win32
+		{488F4622-C70E-4A0C-AF60-B0F12664E064}.Debug|Win32.ActiveCfg = Debug|Win32
+		{488F4622-C70E-4A0C-AF60-B0F12664E064}.Debug|Win32.Build.0 = Debug|Win32
+		{488F4622-C70E-4A0C-AF60-B0F12664E064}.Release|Win32.ActiveCfg = Release|Win32
+		{488F4622-C70E-4A0C-AF60-B0F12664E064}.Release|Win32.Build.0 = Release|Win32
+		{F903E57D-8293-4573-8F66-82F782BF8523}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F903E57D-8293-4573-8F66-82F782BF8523}.Debug|Win32.Build.0 = Debug|Win32
+		{F903E57D-8293-4573-8F66-82F782BF8523}.Release|Win32.ActiveCfg = Release|Win32
+		{F903E57D-8293-4573-8F66-82F782BF8523}.Release|Win32.Build.0 = Release|Win32
+		{C0005EE7-6135-4523-958D-049603BD0650}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0005EE7-6135-4523-958D-049603BD0650}.Debug|Win32.Build.0 = Debug|Win32
+		{C0005EE7-6135-4523-958D-049603BD0650}.Release|Win32.ActiveCfg = Release|Win32
+		{C0005EE7-6135-4523-958D-049603BD0650}.Release|Win32.Build.0 = Release|Win32
+		{71786393-4EB4-4A3C-87CC-E4FD5522C88E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71786393-4EB4-4A3C-87CC-E4FD5522C88E}.Debug|Win32.Build.0 = Debug|Win32
+		{71786393-4EB4-4A3C-87CC-E4FD5522C88E}.Release|Win32.ActiveCfg = Release|Win32
+		{71786393-4EB4-4A3C-87CC-E4FD5522C88E}.Release|Win32.Build.0 = Release|Win32
+		{0AC23A14-8F11-4312-89DE-D994AE05F85D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AC23A14-8F11-4312-89DE-D994AE05F85D}.Debug|Win32.Build.0 = Debug|Win32
+		{0AC23A14-8F11-4312-89DE-D994AE05F85D}.Release|Win32.ActiveCfg = Release|Win32
+		{0AC23A14-8F11-4312-89DE-D994AE05F85D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

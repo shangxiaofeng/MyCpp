@@ -1,0 +1,68 @@
+﻿生成启动时间为 2020/2/10 14:24:29。
+     1>项目“D:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "13 day09综合案例练习.cpp" MyVector.cpp
+         MyVector.cpp
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(48): error C2039: “<<”: 不是“MyVector<T>”的成员
+         13 day09综合案例练习.cpp
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(19): error C2953: “MyVector”: 类模板已经定义
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(5) : 参见“MyVector”的声明
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(10): error C2244: “MyVector<T>::{ctor}”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'MyVector::MyVector(int)'
+                 现有声明
+                 'MyVector<T>::MyVector(const MyVector<T> &)'
+                 'MyVector<T>::MyVector(int)'
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(13): error C2955: “MyVector”: 使用 类 模板 需要 模板 参数列表
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(5) : 参见“MyVector”的声明
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(20): error C2244: “MyVector<T>::{ctor}”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'MyVector::MyVector(const MyVector &)'
+                 现有声明
+                 'MyVector<T>::MyVector(const MyVector<T> &)'
+                 'MyVector<T>::MyVector(int)'
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(29): error C2244: “MyVector<T>::~MyVector”: 无法将函数定义与现有的声明匹配
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(10) : 参见“MyVector<T>::~MyVector”的声明
+                 定义
+                 'MyVector::~MyVector(void)'
+                 现有声明
+                 'MyVector<T>::~MyVector(void)'
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(39): error C2244: “MyVector<T>::operator []”: 无法将函数定义与现有的声明匹配
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(13) : 参见“MyVector<T>::operator []”的声明
+                 定义
+                 'T &MyVector::operator [](int)'
+                 现有声明
+                 'T &MyVector<T>::operator [](int)'
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(42): error C2039: “<<”: 不是“MyVector”的成员
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(5) : 参见“MyVector”的声明
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.cpp(66): error C2244: “MyVector<T>::operator =”: 无法将函数定义与现有的声明匹配
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(14) : 参见“MyVector<T>::operator =”的声明
+                 定义
+                 'MyVector &MyVector::operator =(const MyVector &)'
+                 现有声明
+                 'MyVector<T> &MyVector<T>::operator =(const MyVector<T> &)'
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(7): error C2514: “MyVector”: 类没有构造函数
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(5) : 参见“MyVector”的声明
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(8): error C2662: “int MyVector<T>::getlen(void)”: 不能将“this”指针从“MyVector”转换为“MyVector<T> &”
+                 原因如下:  无法从“MyVector”转换为“MyVector<T>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(9): error C2678: 二进制“[”: 没有找到接受“MyVector”类型的左操作数的运算符(或没有可接受的转换)
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(13): 可能是“T &MyVector<T>::operator [](int)”
+                 尝试匹配参数列表“(MyVector, int)”时
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(10): error C2678: 二进制“[”: 没有找到接受“MyVector”类型的左操作数的运算符(或没有可接受的转换)
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(13): 可能是“T &MyVector<T>::operator [](int)”
+                 尝试匹配参数列表“(MyVector, int)”时
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(13): error C2514: “MyVector”: 类没有构造函数
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(5) : 参见“MyVector”的声明
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(14): error C2662: “int MyVector<T>::getlen(void)”: 不能将“this”指针从“MyVector”转换为“MyVector<T> &”
+                 原因如下:  无法从“MyVector”转换为“MyVector<T>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.cpp(15): error C2678: 二进制“[”: 没有找到接受“MyVector”类型的左操作数的运算符(或没有可接受的转换)
+                 d:\寒假期间\c++提高篇\day09\13 day09综合案例练习\myvector.h(13): 可能是“T &MyVector<T>::operator [](int)”
+                 尝试匹配参数列表“(MyVector, int)”时
+         正在生成代码...
+     1>已完成生成项目“D:\寒假期间\c++提高篇\day09\13 day09综合案例练习\13 day09综合案例练习.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.26

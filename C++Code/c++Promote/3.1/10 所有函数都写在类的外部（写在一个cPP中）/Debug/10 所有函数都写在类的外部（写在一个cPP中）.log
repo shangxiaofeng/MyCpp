@@ -1,0 +1,73 @@
+﻿生成启动时间为 2020/2/7 17:08:45。
+     1>项目“D:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cPP中）\10 所有函数都写在类的外部（写在一个cPP中）.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt complex_test.cpp
+         complex_test.cpp
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(15): error C2953: “Complex”: 类模板已经定义
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(5) : 参见“Complex”的声明
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.hpp(11): error C2244: “Complex<T>::Complex”: 无法将函数定义与现有的声明匹配
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(7) : 参见“Complex<T>::Complex”的声明
+                 定义
+                 'Complex::Complex(T,T)'
+                 现有声明
+                 'Complex<T>::Complex(T,T)'
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.hpp(16): error C2244: “Complex<T>::printCom”: 无法将函数定义与现有的声明匹配
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(8) : 参见“Complex<T>::printCom”的声明
+                 定义
+                 'void Complex::printCom(void)'
+                 现有声明
+                 'void Complex<T>::printCom(void)'
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.hpp(22): error C2244: “Complex<T>::operator +”: 无法将函数定义与现有的声明匹配
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(9) : 参见“Complex<T>::operator +”的声明
+                 定义
+                 'Complex Complex::operator +(Complex &)'
+                 现有声明
+                 'Complex<T> Complex<T>::operator +(Complex<T> &)'
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex_test.cpp(7): error C2514: “Complex”: 类没有构造函数
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(5) : 参见“Complex”的声明
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(5) : 参见“Complex”的声明
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex_test.cpp(8): error C2662: “void Complex<T>::printCom(void)”: 不能将“this”指针从“Complex”转换为“Complex<T> &”
+                 原因如下:  无法从“Complex”转换为“Complex<T>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex_test.cpp(9): error C2678: 二进制“+”: 没有找到接受“Complex”类型的左操作数的运算符(或没有可接受的转换)
+                 d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex.h(9): 可能是“Complex<T> Complex<T>::operator +(Complex<T> &)”
+                 尝试匹配参数列表“(Complex, Complex)”时
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex_test.cpp(9): error C2512: “Complex”: 没有合适的默认构造函数可用
+     1>d:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cpp中）\complex_test.cpp(10): error C2679: 二进制“<<”: 没有找到接受“Complex”类型的右操作数的运算符(或没有可接受的转换)
+                 d:\software\vs2013\setup file\vc\include\ostream(498): 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+                 d:\software\vs2013\setup file\vc\include\ostream(478): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+                 d:\software\vs2013\setup file\vc\include\ostream(458): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+                 d:\software\vs2013\setup file\vc\include\ostream(438): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+                 d:\software\vs2013\setup file\vc\include\ostream(418): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+                 d:\software\vs2013\setup file\vc\include\ostream(397): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+                 d:\software\vs2013\setup file\vc\include\ostream(377): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+                 d:\software\vs2013\setup file\vc\include\ostream(356): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+                 d:\software\vs2013\setup file\vc\include\ostream(336): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+                 d:\software\vs2013\setup file\vc\include\ostream(316): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+                 d:\software\vs2013\setup file\vc\include\ostream(291): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+                 d:\software\vs2013\setup file\vc\include\ostream(271): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+                 d:\software\vs2013\setup file\vc\include\ostream(237): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+                 d:\software\vs2013\setup file\vc\include\ostream(217): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::_Bool)”
+                 d:\software\vs2013\setup file\vc\include\ostream(210): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+                 d:\software\vs2013\setup file\vc\include\ostream(203): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+                 d:\software\vs2013\setup file\vc\include\ostream(197): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+                 d:\software\vs2013\setup file\vc\include\ostream(1026): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+                 d:\software\vs2013\setup file\vc\include\ostream(988): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,Complex>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+                 with
+                 [
+                     _Ty=Complex
+                 ]
+                 d:\software\vs2013\setup file\vc\include\ostream(978): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+                 d:\software\vs2013\setup file\vc\include\ostream(971): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+                 d:\software\vs2013\setup file\vc\include\ostream(964): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+                 d:\software\vs2013\setup file\vc\include\ostream(957): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+                 d:\software\vs2013\setup file\vc\include\ostream(831): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+                 d:\software\vs2013\setup file\vc\include\ostream(784): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+                 d:\software\vs2013\setup file\vc\include\ostream(746): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+                 d:\software\vs2013\setup file\vc\include\ostream(699): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+                 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, Complex)”时
+     1>已完成生成项目“D:\寒假期间\c++提高篇\day09\10 所有函数都写在类的外部（写在一个cPP中）\10 所有函数都写在类的外部（写在一个cPP中）.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.35

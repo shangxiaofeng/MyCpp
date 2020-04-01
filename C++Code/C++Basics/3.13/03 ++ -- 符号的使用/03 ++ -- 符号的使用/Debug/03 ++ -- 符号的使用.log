@@ -1,0 +1,12 @@
+﻿生成启动时间为 2020/3/25 13:58:47。
+     1>项目“D:\寒假期间\比特科技\3月份\随堂代码\3.13\03 ++ -- 符号的使用\03 ++ -- 符号的使用\03 ++ -- 符号的使用.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "03 ++ -- 符号的使用.cpp"
+         03 ++ -- 符号的使用.cpp
+     1>d:\寒假期间\比特科技\3月份\随堂代码\3.13\03 ++ -- 符号的使用\03 ++ -- 符号的使用\03 ++ -- 符号的使用.cpp(14): error C2374: “b”: 重定义；多次初始化
+                 d:\寒假期间\比特科技\3月份\随堂代码\3.13\03 ++ -- 符号的使用\03 ++ -- 符号的使用\03 ++ -- 符号的使用.cpp(6) : 参见“b”的声明
+     1>已完成生成项目“D:\寒假期间\比特科技\3月份\随堂代码\3.13\03 ++ -- 符号的使用\03 ++ -- 符号的使用\03 ++ -- 符号的使用.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56

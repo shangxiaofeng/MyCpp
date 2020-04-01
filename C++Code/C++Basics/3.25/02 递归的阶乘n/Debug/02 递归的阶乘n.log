@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/3/29 0:06:01。
+     1>项目“D:\寒假期间\比特科技\比特code\3月份\3.25\02 递归的阶乘n\02 递归的阶乘n.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "02 递归的阶乘n.cpp"
+         02 递归的阶乘n.cpp
+       Link:
+         D:\SoftWare\VS2013\setup file\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\寒假期间\比特科技\比特code\3月份\3.25\01 递归\Debug\02 递归的阶乘n.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\寒假期间\比特科技\比特code\3月份\3.25\01 递归\Debug\02 递归的阶乘n.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\寒假期间\比特科技\比特code\3月份\3.25\01 递归\Debug\02 递归的阶乘n.lib" /MACHINE:X86 "Debug\02 递归的阶乘n.obj"
+         02 递归的阶乘n.vcxproj -> D:\寒假期间\比特科技\比特code\3月份\3.25\01 递归\Debug\02 递归的阶乘n.exe
+     1>已完成生成项目“D:\寒假期间\比特科技\比特code\3月份\3.25\02 递归的阶乘n\02 递归的阶乘n.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.96

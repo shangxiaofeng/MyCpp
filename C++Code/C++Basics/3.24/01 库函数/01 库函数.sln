@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 库函数", "01 库函数\01 库函数.vcxproj", "{A877BEB0-0318-4187-A470-16797AD20960}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 判断是否为闰年", "..\02 判断是否为闰年\02 判断是否为闰年.vcxproj", "{4D9F048F-AB00-4F39-9A29-BCC78D742A7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 二分查找", "..\03 二分查找\03 二分查找.vcxproj", "{73908F28-46D2-4800-89DD-7966D60CE4C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 每调用一次函数，num加1", "..\04 每调用一次函数，num加1\04 每调用一次函数，num加1.vcxproj", "{596A71A6-F44C-415D-BC85-11325FEBBD12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A877BEB0-0318-4187-A470-16797AD20960}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A877BEB0-0318-4187-A470-16797AD20960}.Debug|Win32.Build.0 = Debug|Win32
+		{A877BEB0-0318-4187-A470-16797AD20960}.Release|Win32.ActiveCfg = Release|Win32
+		{A877BEB0-0318-4187-A470-16797AD20960}.Release|Win32.Build.0 = Release|Win32
+		{4D9F048F-AB00-4F39-9A29-BCC78D742A7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D9F048F-AB00-4F39-9A29-BCC78D742A7B}.Debug|Win32.Build.0 = Debug|Win32
+		{4D9F048F-AB00-4F39-9A29-BCC78D742A7B}.Release|Win32.ActiveCfg = Release|Win32
+		{4D9F048F-AB00-4F39-9A29-BCC78D742A7B}.Release|Win32.Build.0 = Release|Win32
+		{73908F28-46D2-4800-89DD-7966D60CE4C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73908F28-46D2-4800-89DD-7966D60CE4C7}.Debug|Win32.Build.0 = Debug|Win32
+		{73908F28-46D2-4800-89DD-7966D60CE4C7}.Release|Win32.ActiveCfg = Release|Win32
+		{73908F28-46D2-4800-89DD-7966D60CE4C7}.Release|Win32.Build.0 = Release|Win32
+		{596A71A6-F44C-415D-BC85-11325FEBBD12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{596A71A6-F44C-415D-BC85-11325FEBBD12}.Debug|Win32.Build.0 = Debug|Win32
+		{596A71A6-F44C-415D-BC85-11325FEBBD12}.Release|Win32.ActiveCfg = Release|Win32
+		{596A71A6-F44C-415D-BC85-11325FEBBD12}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
