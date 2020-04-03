@@ -1,26 +1,30 @@
 //用C语言在屏幕上输出以下图案：
-#include<iostream>
+#include<stdio.h>
 
 int main() {
-	int i, j;
-	int n, m;
-	for (i = 0; i<7; i++) {
-		for (j = 7; j>i; j--) {
+	int i = 0;
+	int line;
+	printf("请输入您打印的行数：");
+	scanf_s("%d", &line);
+	for (i = 0; i < line; i++){
+		int j = 0;
+		for (j = 0; j <line-1-i; j++){
 			printf(" ");
 		}
-		for (j = 0; j<2 * i + 1; j++) {
+		for (j = 0; j < 2 * i + 1; j++){
 			printf("*");
 		}
 		printf("\n");
 	}
-		for (n = 0; n <6; n++){
-			for (m = 0; m<n+2; m++){
-				printf(" ");
-			}
-			for (m = 11-2*n; m>0; m--){
-				printf("*");
-			}
-			printf("\n");
+	for (i = 0; i < line-1; i++){
+		int j = 0;
+		for (int j = 0; j <= i; j++){
+			printf(" ");
+		}
+		for (j = 0; j < 2 * (line - 1 - i)-1; j++){
+			printf("*");
+		}
+		printf("\n");
 	}
 		return 0;
 }
