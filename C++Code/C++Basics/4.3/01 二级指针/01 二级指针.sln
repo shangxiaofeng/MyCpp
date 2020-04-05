@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 二级指针", "01 二级指针\01 二级指针.vcxproj", "{62178661-48BB-462D-AF09-018845833038}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 指针数组", "..\02 指针数组\02 指针数组.vcxproj", "{BE13996A-C820-437A-B911-13E0C96E4F7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 喝汽水问题", "..\03 喝汽水问题\03 喝汽水问题.vcxproj", "{B255FF01-6552-4F1C-8218-2568D532B7E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62178661-48BB-462D-AF09-018845833038}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62178661-48BB-462D-AF09-018845833038}.Debug|Win32.Build.0 = Debug|Win32
+		{62178661-48BB-462D-AF09-018845833038}.Release|Win32.ActiveCfg = Release|Win32
+		{62178661-48BB-462D-AF09-018845833038}.Release|Win32.Build.0 = Release|Win32
+		{BE13996A-C820-437A-B911-13E0C96E4F7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE13996A-C820-437A-B911-13E0C96E4F7B}.Debug|Win32.Build.0 = Debug|Win32
+		{BE13996A-C820-437A-B911-13E0C96E4F7B}.Release|Win32.ActiveCfg = Release|Win32
+		{BE13996A-C820-437A-B911-13E0C96E4F7B}.Release|Win32.Build.0 = Release|Win32
+		{B255FF01-6552-4F1C-8218-2568D532B7E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B255FF01-6552-4F1C-8218-2568D532B7E8}.Debug|Win32.Build.0 = Debug|Win32
+		{B255FF01-6552-4F1C-8218-2568D532B7E8}.Release|Win32.ActiveCfg = Release|Win32
+		{B255FF01-6552-4F1C-8218-2568D532B7E8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
