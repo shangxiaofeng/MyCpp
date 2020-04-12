@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 大小端模式", "01 大小端模式\01 大小端模式.vcxproj", "{C183AA44-E973-490E-9F81-01BD2F7894C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 杨辉三角", "..\02 杨辉三角\02 杨辉三角.vcxproj", "{95FC0D2C-C45B-439A-9227-58E5A2083E60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C183AA44-E973-490E-9F81-01BD2F7894C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C183AA44-E973-490E-9F81-01BD2F7894C6}.Debug|Win32.Build.0 = Debug|Win32
+		{C183AA44-E973-490E-9F81-01BD2F7894C6}.Release|Win32.ActiveCfg = Release|Win32
+		{C183AA44-E973-490E-9F81-01BD2F7894C6}.Release|Win32.Build.0 = Release|Win32
+		{95FC0D2C-C45B-439A-9227-58E5A2083E60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95FC0D2C-C45B-439A-9227-58E5A2083E60}.Debug|Win32.Build.0 = Debug|Win32
+		{95FC0D2C-C45B-439A-9227-58E5A2083E60}.Release|Win32.ActiveCfg = Release|Win32
+		{95FC0D2C-C45B-439A-9227-58E5A2083E60}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿生成启动时间为 2020/4/13 0:37:13。
+     1>项目“C:\寒假期间\比特科技\比特code\4月份\4.9\01 testCODE\01 testCODE\01 testCODE.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "01 testCode.cpp"
+         01 testCode.cpp
+     1>c:\寒假期间\比特科技\比特code\4月份\4.9\01 testcode\01 testcode\01 testcode.cpp(224): error C2664: “void bubble(void *,int,int,int (__cdecl *)(void *,void *))”: 无法将参数 4 从“int (__cdecl *)(const void *,const void *)”转换为“int (__cdecl *)(void *,void *)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>已完成生成项目“C:\寒假期间\比特科技\比特code\4月份\4.9\01 testCODE\01 testCODE\01 testCODE.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.26
