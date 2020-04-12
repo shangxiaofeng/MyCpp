@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027 如何证明vptr指针的存在", "027 如何证明vptr指针的存在\027 如何证明vptr指针的存在.vcxproj", "{9BD7E91F-E069-4866-BFDD-28059A7B1BD3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028 多态原理探究", "..\028 多态原理探究\028 多态原理探究.vcxproj", "{E586053F-9C86-451A-9CFB-C37DB341B915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BD7E91F-E069-4866-BFDD-28059A7B1BD3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BD7E91F-E069-4866-BFDD-28059A7B1BD3}.Debug|Win32.Build.0 = Debug|Win32
+		{9BD7E91F-E069-4866-BFDD-28059A7B1BD3}.Release|Win32.ActiveCfg = Release|Win32
+		{9BD7E91F-E069-4866-BFDD-28059A7B1BD3}.Release|Win32.Build.0 = Release|Win32
+		{E586053F-9C86-451A-9CFB-C37DB341B915}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E586053F-9C86-451A-9CFB-C37DB341B915}.Debug|Win32.Build.0 = Debug|Win32
+		{E586053F-9C86-451A-9CFB-C37DB341B915}.Release|Win32.ActiveCfg = Release|Win32
+		{E586053F-9C86-451A-9CFB-C37DB341B915}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

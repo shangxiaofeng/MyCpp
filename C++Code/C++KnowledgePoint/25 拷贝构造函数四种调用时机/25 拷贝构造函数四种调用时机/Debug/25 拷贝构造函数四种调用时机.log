@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/4/6 14:54:04。
+     1>项目“D:\寒假期间\MyC++\MyC++Code\KnowledgePoint\25 拷贝构造函数四种调用时机\25 拷贝构造函数四种调用时机\25 拷贝构造函数四种调用时机.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "25 拷贝构造函数四种调用时机.cpp"
+         25 拷贝构造函数四种调用时机.cpp
+       Link:
+         D:\SoftWare\VS2013\setup file\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\寒假期间\MyC++\MyC++Code\KnowledgePoint\25 拷贝构造函数四种调用时机\Debug\25 拷贝构造函数四种调用时机.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\寒假期间\MyC++\MyC++Code\KnowledgePoint\25 拷贝构造函数四种调用时机\Debug\25 拷贝构造函数四种调用时机.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\寒假期间\MyC++\MyC++Code\KnowledgePoint\25 拷贝构造函数四种调用时机\Debug\25 拷贝构造函数四种调用时机.lib" /MACHINE:X86 "Debug\25 拷贝构造函数四种调用时机.obj"
+         25 拷贝构造函数四种调用时机.vcxproj -> D:\寒假期间\MyC++\MyC++Code\KnowledgePoint\25 拷贝构造函数四种调用时机\Debug\25 拷贝构造函数四种调用时机.exe
+     1>已完成生成项目“D:\寒假期间\MyC++\MyC++Code\KnowledgePoint\25 拷贝构造函数四种调用时机\25 拷贝构造函数四种调用时机\25 拷贝构造函数四种调用时机.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.96
