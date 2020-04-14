@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 strerror 函数", "01 strerror 函数\01 strerror 函数.vcxproj", "{9A5BBA54-8209-4E22-BC15-4264262E97A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 strstr函数的使用", "..\02 strstr函数的使用\02 strstr函数的使用.vcxproj", "{E05EFFB6-9AF2-4FFD-BB7D-0EDD5659696D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 memcmp函数", "..\04 memcmp函数\04 memcmp函数.vcxproj", "{2B3459D5-A162-43DD-AF77-FB23A96C6D8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 memcpy函数", "..\05 memcpy函数\05 memcpy函数.vcxproj", "{FFF823DC-5F3E-43A6-9F4F-C00E3DA0D388}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 memmove函数的使用", "..\06 memmove函数的使用\06 memmove函数的使用.vcxproj", "{0B92CC8D-75A6-4182-9176-54588469386A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A5BBA54-8209-4E22-BC15-4264262E97A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A5BBA54-8209-4E22-BC15-4264262E97A2}.Debug|Win32.Build.0 = Debug|Win32
+		{9A5BBA54-8209-4E22-BC15-4264262E97A2}.Release|Win32.ActiveCfg = Release|Win32
+		{9A5BBA54-8209-4E22-BC15-4264262E97A2}.Release|Win32.Build.0 = Release|Win32
+		{E05EFFB6-9AF2-4FFD-BB7D-0EDD5659696D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E05EFFB6-9AF2-4FFD-BB7D-0EDD5659696D}.Debug|Win32.Build.0 = Debug|Win32
+		{E05EFFB6-9AF2-4FFD-BB7D-0EDD5659696D}.Release|Win32.ActiveCfg = Release|Win32
+		{E05EFFB6-9AF2-4FFD-BB7D-0EDD5659696D}.Release|Win32.Build.0 = Release|Win32
+		{2B3459D5-A162-43DD-AF77-FB23A96C6D8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B3459D5-A162-43DD-AF77-FB23A96C6D8F}.Debug|Win32.Build.0 = Debug|Win32
+		{2B3459D5-A162-43DD-AF77-FB23A96C6D8F}.Release|Win32.ActiveCfg = Release|Win32
+		{2B3459D5-A162-43DD-AF77-FB23A96C6D8F}.Release|Win32.Build.0 = Release|Win32
+		{FFF823DC-5F3E-43A6-9F4F-C00E3DA0D388}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFF823DC-5F3E-43A6-9F4F-C00E3DA0D388}.Debug|Win32.Build.0 = Debug|Win32
+		{FFF823DC-5F3E-43A6-9F4F-C00E3DA0D388}.Release|Win32.ActiveCfg = Release|Win32
+		{FFF823DC-5F3E-43A6-9F4F-C00E3DA0D388}.Release|Win32.Build.0 = Release|Win32
+		{0B92CC8D-75A6-4182-9176-54588469386A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B92CC8D-75A6-4182-9176-54588469386A}.Debug|Win32.Build.0 = Debug|Win32
+		{0B92CC8D-75A6-4182-9176-54588469386A}.Release|Win32.ActiveCfg = Release|Win32
+		{0B92CC8D-75A6-4182-9176-54588469386A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
