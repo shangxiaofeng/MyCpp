@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 求数组中数字的平均值", "01 求数组中数字的平均值\01 求数组中数字的平均值.vcxproj", "{D906D424-3B1C-4F91-8E6B-72B3DF3AB5B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 输入字符串求字符串的长度", "..\02 输入字符串求字符串的长度\02 输入字符串求字符串的长度.vcxproj", "{BF8C7A73-7AB0-4602-82A4-912BC07164D3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 判断成绩是否及格", "..\03 判断成绩是否及格\03 判断成绩是否及格.vcxproj", "{56E65B73-BCD8-4172-98B8-C94FE78926BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 打印金子塔", "..\04 打印金子塔\04 打印金子塔.vcxproj", "{3F771388-CFC0-4F29-8B09-98E6CC1B3BCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 fopen的使用", "..\05 fopen的使用\05 fopen的使用.vcxproj", "{E87F0D2C-1841-473C-9D7B-F477DA655D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D906D424-3B1C-4F91-8E6B-72B3DF3AB5B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D906D424-3B1C-4F91-8E6B-72B3DF3AB5B0}.Debug|Win32.Build.0 = Debug|Win32
+		{D906D424-3B1C-4F91-8E6B-72B3DF3AB5B0}.Release|Win32.ActiveCfg = Release|Win32
+		{D906D424-3B1C-4F91-8E6B-72B3DF3AB5B0}.Release|Win32.Build.0 = Release|Win32
+		{BF8C7A73-7AB0-4602-82A4-912BC07164D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF8C7A73-7AB0-4602-82A4-912BC07164D3}.Debug|Win32.Build.0 = Debug|Win32
+		{BF8C7A73-7AB0-4602-82A4-912BC07164D3}.Release|Win32.ActiveCfg = Release|Win32
+		{BF8C7A73-7AB0-4602-82A4-912BC07164D3}.Release|Win32.Build.0 = Release|Win32
+		{56E65B73-BCD8-4172-98B8-C94FE78926BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56E65B73-BCD8-4172-98B8-C94FE78926BF}.Debug|Win32.Build.0 = Debug|Win32
+		{56E65B73-BCD8-4172-98B8-C94FE78926BF}.Release|Win32.ActiveCfg = Release|Win32
+		{56E65B73-BCD8-4172-98B8-C94FE78926BF}.Release|Win32.Build.0 = Release|Win32
+		{3F771388-CFC0-4F29-8B09-98E6CC1B3BCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F771388-CFC0-4F29-8B09-98E6CC1B3BCD}.Debug|Win32.Build.0 = Debug|Win32
+		{3F771388-CFC0-4F29-8B09-98E6CC1B3BCD}.Release|Win32.ActiveCfg = Release|Win32
+		{3F771388-CFC0-4F29-8B09-98E6CC1B3BCD}.Release|Win32.Build.0 = Release|Win32
+		{E87F0D2C-1841-473C-9D7B-F477DA655D31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E87F0D2C-1841-473C-9D7B-F477DA655D31}.Debug|Win32.Build.0 = Debug|Win32
+		{E87F0D2C-1841-473C-9D7B-F477DA655D31}.Release|Win32.ActiveCfg = Release|Win32
+		{E87F0D2C-1841-473C-9D7B-F477DA655D31}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
