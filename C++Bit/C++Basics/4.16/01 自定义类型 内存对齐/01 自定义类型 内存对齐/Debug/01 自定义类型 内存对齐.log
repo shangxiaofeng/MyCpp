@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/4/17 11:05:38。
+     1>项目“C:\DuringWinterVacation\BitSK\bitCode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "01 自定义类型 内存对齐.cpp"
+         01 自定义类型 内存对齐.cpp
+     1>c:\duringwintervacation\bitsk\bitcode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.cpp(121): warning C4244: “=”: 从“double”转换到“short”，可能丢失数据
+     1>c:\duringwintervacation\bitsk\bitcode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.cpp(139): warning C4244: “=”: 从“double”转换到“short”，可能丢失数据
+     1>c:\duringwintervacation\bitsk\bitcode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.cpp(157): warning C4101: “t”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.cpp(174): warning C4101: “t”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.cpp(192): warning C4101: “t”: 未引用的局部变量
+       Link:
+         D:\SoftWare\VS2013\setup file\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DuringWinterVacation\BitSK\bitCode\4月份\4.16\01 自定义类型 内存对齐\Debug\01 自定义类型 内存对齐.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DuringWinterVacation\BitSK\bitCode\4月份\4.16\01 自定义类型 内存对齐\Debug\01 自定义类型 内存对齐.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DuringWinterVacation\BitSK\bitCode\4月份\4.16\01 自定义类型 内存对齐\Debug\01 自定义类型 内存对齐.lib" /MACHINE:X86 "Debug\01 自定义类型 内存对齐.obj"
+         01 自定义类型 内存对齐.vcxproj -> C:\DuringWinterVacation\BitSK\bitCode\4月份\4.16\01 自定义类型 内存对齐\Debug\01 自定义类型 内存对齐.exe
+     1>已完成生成项目“C:\DuringWinterVacation\BitSK\bitCode\4月份\4.16\01 自定义类型 内存对齐\01 自定义类型 内存对齐\01 自定义类型 内存对齐.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.75
