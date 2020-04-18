@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 testCode", "01 testCode.vcxproj", "{4B68102B-3E86-438E-B973-10EFC76989B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 动态内存分配", "..\01 动态内存分配\01 动态内存分配.vcxproj", "{0ED4D801-F10D-4C96-953D-FCD821F632C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 类型转换", "..\02 类型转换\02 类型转换.vcxproj", "{0FDD917A-31A3-4CFF-BE64-0FD187234E27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 结构体类型动态内存空间", "..\03 结构体类型动态内存空间\03 结构体类型动态内存空间.vcxproj", "{02A420E2-22F2-4F40-9B88-5BF1382BF372}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 calloc函数", "..\04 calloc函数\04 calloc函数.vcxproj", "{C4C5F774-9F9D-42A9-B36B-8DE4541B37B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 realloc函数", "..\05 realloc函数\05 realloc函数.vcxproj", "{2BABA2CB-584D-4051-9AD4-7F0A8B9FA2EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 模拟实现realloc函数", "..\06 模拟实现realloc函数\06 模拟实现realloc函数.vcxproj", "{8CD524FA-6E10-491A-8C39-97C329761A30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 通讯录", "..\07 通讯录\07 通讯录.vcxproj", "{C3AB55BA-7C08-4BB1-B5B0-E1DC3ADC64E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B68102B-3E86-438E-B973-10EFC76989B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B68102B-3E86-438E-B973-10EFC76989B0}.Debug|Win32.Build.0 = Debug|Win32
+		{4B68102B-3E86-438E-B973-10EFC76989B0}.Release|Win32.ActiveCfg = Release|Win32
+		{4B68102B-3E86-438E-B973-10EFC76989B0}.Release|Win32.Build.0 = Release|Win32
+		{0ED4D801-F10D-4C96-953D-FCD821F632C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0ED4D801-F10D-4C96-953D-FCD821F632C7}.Debug|Win32.Build.0 = Debug|Win32
+		{0ED4D801-F10D-4C96-953D-FCD821F632C7}.Release|Win32.ActiveCfg = Release|Win32
+		{0ED4D801-F10D-4C96-953D-FCD821F632C7}.Release|Win32.Build.0 = Release|Win32
+		{0FDD917A-31A3-4CFF-BE64-0FD187234E27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FDD917A-31A3-4CFF-BE64-0FD187234E27}.Debug|Win32.Build.0 = Debug|Win32
+		{0FDD917A-31A3-4CFF-BE64-0FD187234E27}.Release|Win32.ActiveCfg = Release|Win32
+		{0FDD917A-31A3-4CFF-BE64-0FD187234E27}.Release|Win32.Build.0 = Release|Win32
+		{02A420E2-22F2-4F40-9B88-5BF1382BF372}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02A420E2-22F2-4F40-9B88-5BF1382BF372}.Debug|Win32.Build.0 = Debug|Win32
+		{02A420E2-22F2-4F40-9B88-5BF1382BF372}.Release|Win32.ActiveCfg = Release|Win32
+		{02A420E2-22F2-4F40-9B88-5BF1382BF372}.Release|Win32.Build.0 = Release|Win32
+		{C4C5F774-9F9D-42A9-B36B-8DE4541B37B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4C5F774-9F9D-42A9-B36B-8DE4541B37B8}.Debug|Win32.Build.0 = Debug|Win32
+		{C4C5F774-9F9D-42A9-B36B-8DE4541B37B8}.Release|Win32.ActiveCfg = Release|Win32
+		{C4C5F774-9F9D-42A9-B36B-8DE4541B37B8}.Release|Win32.Build.0 = Release|Win32
+		{2BABA2CB-584D-4051-9AD4-7F0A8B9FA2EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BABA2CB-584D-4051-9AD4-7F0A8B9FA2EB}.Debug|Win32.Build.0 = Debug|Win32
+		{2BABA2CB-584D-4051-9AD4-7F0A8B9FA2EB}.Release|Win32.ActiveCfg = Release|Win32
+		{2BABA2CB-584D-4051-9AD4-7F0A8B9FA2EB}.Release|Win32.Build.0 = Release|Win32
+		{8CD524FA-6E10-491A-8C39-97C329761A30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CD524FA-6E10-491A-8C39-97C329761A30}.Debug|Win32.Build.0 = Debug|Win32
+		{8CD524FA-6E10-491A-8C39-97C329761A30}.Release|Win32.ActiveCfg = Release|Win32
+		{8CD524FA-6E10-491A-8C39-97C329761A30}.Release|Win32.Build.0 = Release|Win32
+		{C3AB55BA-7C08-4BB1-B5B0-E1DC3ADC64E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3AB55BA-7C08-4BB1-B5B0-E1DC3ADC64E3}.Debug|Win32.Build.0 = Debug|Win32
+		{C3AB55BA-7C08-4BB1-B5B0-E1DC3ADC64E3}.Release|Win32.ActiveCfg = Release|Win32
+		{C3AB55BA-7C08-4BB1-B5B0-E1DC3ADC64E3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

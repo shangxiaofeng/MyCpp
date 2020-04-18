@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/4/18 20:56:22。
+     1>项目“C:\DuringWinterVacation\BitSK\bitCode\4月份\4.18\01 testCode\01 testCode.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "01 testCode.cpp"
+         01 testCode.cpp
+       Link:
+         D:\SoftWare\VS2013\setup file\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DuringWinterVacation\BitSK\bitCode\4月份\4.18\01 testCode\Debug\01 testCode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DuringWinterVacation\BitSK\bitCode\4月份\4.18\01 testCode\Debug\01 testCode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DuringWinterVacation\BitSK\bitCode\4月份\4.18\01 testCode\Debug\01 testCode.lib" /MACHINE:X86 "Debug\01 testCode.obj"
+         01 testCode.vcxproj -> C:\DuringWinterVacation\BitSK\bitCode\4月份\4.18\01 testCode\Debug\01 testCode.exe
+     1>已完成生成项目“C:\DuringWinterVacation\BitSK\bitCode\4月份\4.18\01 testCode\01 testCode.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.48
