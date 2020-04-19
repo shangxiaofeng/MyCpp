@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 fclose函数的使用", "01 fclose函数的使用\01 fclose函数的使用.vcxproj", "{41432D1F-267A-4F83-AC92-CF83C858B51D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 fgetc函数的使用", "..\02 fgetc函数的使用\02 fgetc函数的使用.vcxproj", "{1BE9361B-E067-4D70-BC92-71E18FDF513D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 fgets函数的使用", "..\03 fgets函数的使用\03 fgets函数的使用.vcxproj", "{8FAC5429-6038-454E-B9A4-96449F75B1C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 fputs函数的使用", "..\04 fputs函数的使用\04 fputs函数的使用.vcxproj", "{95BCC8B5-2EC2-4652-8490-DCDCAE49FEFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 fprintf()函数的使用", "..\05 fprintf()函数的使用\05 fprintf()函数的使用.vcxproj", "{6409ECD9-E389-4F75-ACB7-005D82664979}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 fscanf()函数的使用", "..\06 fscanf()函数的使用\06 fscanf()函数的使用.vcxproj", "{D7AE8B42-5CD4-41E9-8F2F-086CE96A8B6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41432D1F-267A-4F83-AC92-CF83C858B51D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41432D1F-267A-4F83-AC92-CF83C858B51D}.Debug|Win32.Build.0 = Debug|Win32
+		{41432D1F-267A-4F83-AC92-CF83C858B51D}.Release|Win32.ActiveCfg = Release|Win32
+		{41432D1F-267A-4F83-AC92-CF83C858B51D}.Release|Win32.Build.0 = Release|Win32
+		{1BE9361B-E067-4D70-BC92-71E18FDF513D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BE9361B-E067-4D70-BC92-71E18FDF513D}.Debug|Win32.Build.0 = Debug|Win32
+		{1BE9361B-E067-4D70-BC92-71E18FDF513D}.Release|Win32.ActiveCfg = Release|Win32
+		{1BE9361B-E067-4D70-BC92-71E18FDF513D}.Release|Win32.Build.0 = Release|Win32
+		{8FAC5429-6038-454E-B9A4-96449F75B1C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8FAC5429-6038-454E-B9A4-96449F75B1C9}.Debug|Win32.Build.0 = Debug|Win32
+		{8FAC5429-6038-454E-B9A4-96449F75B1C9}.Release|Win32.ActiveCfg = Release|Win32
+		{8FAC5429-6038-454E-B9A4-96449F75B1C9}.Release|Win32.Build.0 = Release|Win32
+		{95BCC8B5-2EC2-4652-8490-DCDCAE49FEFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95BCC8B5-2EC2-4652-8490-DCDCAE49FEFF}.Debug|Win32.Build.0 = Debug|Win32
+		{95BCC8B5-2EC2-4652-8490-DCDCAE49FEFF}.Release|Win32.ActiveCfg = Release|Win32
+		{95BCC8B5-2EC2-4652-8490-DCDCAE49FEFF}.Release|Win32.Build.0 = Release|Win32
+		{6409ECD9-E389-4F75-ACB7-005D82664979}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6409ECD9-E389-4F75-ACB7-005D82664979}.Debug|Win32.Build.0 = Debug|Win32
+		{6409ECD9-E389-4F75-ACB7-005D82664979}.Release|Win32.ActiveCfg = Release|Win32
+		{6409ECD9-E389-4F75-ACB7-005D82664979}.Release|Win32.Build.0 = Release|Win32
+		{D7AE8B42-5CD4-41E9-8F2F-086CE96A8B6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7AE8B42-5CD4-41E9-8F2F-086CE96A8B6C}.Debug|Win32.Build.0 = Debug|Win32
+		{D7AE8B42-5CD4-41E9-8F2F-086CE96A8B6C}.Release|Win32.ActiveCfg = Release|Win32
+		{D7AE8B42-5CD4-41E9-8F2F-086CE96A8B6C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
