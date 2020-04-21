@@ -1,0 +1,22 @@
+﻿生成启动时间为 2020/4/21 22:41:33。
+     1>项目“C:\DuringWinterVacation\BitSK\bitCode\Project\UpgradeContact\UpgradeContact\UpgradeContact.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\setup file\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt UpgradeContact.cpp
+         UpgradeContact.cpp
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(39): warning C4101: “tel”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(41): warning C4101: “age”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(37): warning C4101: “name”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(38): warning C4101: “sex”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(40): warning C4101: “addr”: 未引用的局部变量
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(173): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\duringwintervacation\bitsk\bitcode\project\upgradecontact\upgradecontact\upgradecontact.cpp(174): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\SoftWare\VS2013\setup file\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DuringWinterVacation\BitSK\bitCode\Project\UpgradeContact\Debug\UpgradeContact.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DuringWinterVacation\BitSK\bitCode\Project\UpgradeContact\Debug\UpgradeContact.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DuringWinterVacation\BitSK\bitCode\Project\UpgradeContact\Debug\UpgradeContact.lib" /MACHINE:X86 Debug\main.obj
+         Debug\UpgradeContact.obj
+         UpgradeContact.vcxproj -> C:\DuringWinterVacation\BitSK\bitCode\Project\UpgradeContact\Debug\UpgradeContact.exe
+     1>已完成生成项目“C:\DuringWinterVacation\BitSK\bitCode\Project\UpgradeContact\UpgradeContact\UpgradeContact.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.06
